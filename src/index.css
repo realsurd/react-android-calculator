@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.App {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.calculator {
+    background-color: #000;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 350px;
+    padding: 2px;
+}
+
+#dark .calculator {
+    background-color: #000;
+}
+
+#light .calculator {
+    background-color: #fff;
+    box-shadow: 0px 2px 64px rgba(0, 0, 0, 0.5);
+}
+
+.display {
+    background-color: grey;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    color: #eee;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+
+#light .display {
+    background-color: #fff;
+    color: #000;
+}
+
+#light  .display-1 {
+    color: #000;
+}
+
+#light .display-result {
+    color: #000;
+}
+
+
+.switch {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display h1 {
+    padding:  0 0 2rem 1rem;
+    font-size: 20px;
+}
+
+.display-1 {
+    color: #eee;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 30px;
+}
+.display-result {
+    color: #eee;
+    text-align: right;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+    font-size: 50px;
+    padding: 2px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn-1  {
+    display: flex;
+}
+.btn-1 button{
+    appearance: none;
+    border: none;
+    outline: none;
+    flex: 1 1 33.33%;
+    max-width: 33.333%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #000;
+    color:#eee
+}
+
+#light .btn button {
+    background-color: #eee;
+    color: #000;
+}
+
+button:hover {
+    opacity: 0.9;
+    background-color: rgb(47, 51, 50);
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.numbers button {
+    appearance: none;
+    border: none;
+    outline: none;
+    flex: 1 1 33.333%;
+    max-width: 33.333%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #000;
+    color:#eee
+}
+
+.numbers button:hover {
+    opacity: 0.9;
+    background-color: rgb(47, 51, 50);
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.numbers .numbers-btn {
+    background-color: orangered;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    cursor: pointer;
+    width: 70px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+}
