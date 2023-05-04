@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-android-calculator/static/css/main.47c490cd.css",
+    "main.js": "/react-android-calculator/static/js/main.7196b147.js",
+    "index.html": "/react-android-calculator/index.html",
+    "main.47c490cd.css.map": "/react-android-calculator/static/css/main.47c490cd.css.map",
+    "main.7196b147.js.map": "/react-android-calculator/static/js/main.7196b147.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47c490cd.css",
+    "static/js/main.7196b147.js"
+  ]
+}
